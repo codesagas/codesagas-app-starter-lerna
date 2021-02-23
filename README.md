@@ -13,4 +13,12 @@ commitizen
 steps
 https://github.com/atlassian/lerna-semantic-release
 
+git config --global core.autocrlf input
+git config --global core.eol lf
+
+.....
+npx semantic-release-cli setup
+> needs a real repo to test this out
+.....
+
 

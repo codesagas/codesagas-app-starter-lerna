@@ -1,5 +1,5 @@
 {
-  "name": "@ddb/character-components",
+  "name": "@codesagas/components",
   "version": "0.1.0",
   "private": true,
   "typings": "./lib/index.d.ts",
