@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "cz-lerna-changelog": "^2.0.3",
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "lerna": "lerna",
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run --parallel --stream start",
+    "commit": "cz",
+    "setup:commitizen": "commitizen init cz-lerna-changelog --save-dev --save-exact"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  }
+}
