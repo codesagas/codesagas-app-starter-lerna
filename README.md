@@ -22,3 +22,8 @@ npx semantic-release-cli setup
 .....
 
 
+
+Installed for setup only...
+semantic-release-cli setup
+
+

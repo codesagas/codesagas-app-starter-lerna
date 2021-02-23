@@ -4,18 +4,27 @@
   "devDependencies": {
     "commitizen": "^4.2.3",
     "cz-lerna-changelog": "^2.0.3",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "semantic-release": "^17.3.9",
+    "semantic-release-cli": "^5.4.3"
   },
   "scripts": {
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "start": "lerna run --parallel --stream start",
     "commit": "cz",
-    "setup:commitizen": "commitizen init cz-lerna-changelog --save-dev --save-exact"
+    "setup:commitizen": "commitizen init cz-lerna-changelog --save-dev --save-exact",
+    "semantic-release": "semantic-release",
+    "setup:semantic-release": "semantic-release-cli setup"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
+  },
+  "version": "0.0.0-development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesagas/codesagas-app-starter-lerna.git"
   }
 }
