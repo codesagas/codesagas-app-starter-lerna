@@ -3,6 +3,7 @@
   "private": true,
   "devDependencies": {
     "commitizen": "^4.2.3",
+    "cross-env": "^7.0.3",
     "cz-lerna-changelog": "^2.0.3",
     "lerna": "^3.22.1",
     "semantic-release": "^17.3.9",
@@ -14,7 +15,7 @@
     "start": "lerna run --parallel --stream start",
     "commit": "cz",
     "setup:commitizen": "commitizen init cz-lerna-changelog --save-dev --save-exact",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --branches main",
     "setup:semantic-release": "semantic-release-cli setup"
   },
   "config": {
